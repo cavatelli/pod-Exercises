@@ -1,0 +1,22 @@
+Java Exercises
+
+1.
+
+public boolean sleepIn(boolean weekday, boolean vacation) {
+  if(!weekday || vacation){
+    return true;
+  } {
+    return false;
+  }
+}
+
+2.
+
+public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+  if(aSmile && bSmile || !aSmile && !bSmile){
+    return true;
+  } else {
+    return false;
+  }
+}
+
