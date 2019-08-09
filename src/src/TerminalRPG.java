@@ -70,6 +70,19 @@ public class TerminalRPG {
                     enemyDef = zombieDefense;
                     break;
             }
+            System.out.printf("A %s has spawned", theEnemy);
+            Scanner combatScan = new Scanner(System.in);
+            System.out.println("Would you like to fight or run? f/r");
+            String theFight = combatScan.next();
+            boolean fightConfirmation = theFight.equals("f");
+
+
+            //Calculating damage
+            int userDamage = charAttack - enemyDef;
+            int enemyDamage = enemyAtt - charDef;
+//            if(fightConfirmation){
+//                for(int i = charHealth; i > 0; i - userDamage)
+//            }
         }
     }
 
